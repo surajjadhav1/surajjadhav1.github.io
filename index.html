@@ -18,7 +18,7 @@
             color: #fff;
         }
 
-        .row{
+        .row {
             display: flex;
             justify-content: center;
             margin-top: 20px;
@@ -27,32 +27,60 @@
         a {
             text-decoration: none;
             padding: 5px;
-            background-color: aquamarine;
-            border: solid 1px grey;
-            border-radius: 5px;
+            color: #000;
+            /* background-color: aquamarine; */
+            /* border: solid 1px grey; */
+            /* border-radius: 5px; */
+        }
+        a:hover{
+            background-color: rgb(1, 117, 40);
+            border: solid 1px #000;
+            border-radius: 10px;
         }
 
         .card-body ul {
             line-height: 35px;
-            list-style-type: none
+            list-style-type: none;
+            padding-left: 10px;
+
+        }
+
+        .card-body ul li {
+            font-size: 1rem;
+            font-weight: bold;
         }
 
         .card {
-            border: solid 1px red;
-            border-radius: 10px;
-            width: 25%;
+            /* border: solid 1px red; */
+            /* border-radius: 7px; */
+            width: 600px;
         }
 
         .card .card-heading {
             padding: 10px;
-            border-radius: 5px;
+            /* border-radius: 7px; */
             background-color: #000;
-            border-bottom: 2px solid rgb(0, 87, 168);
+            /* border-bottom: 2px solid rgb(0, 87, 168); */
             text-align: center;
         }
 
+        .card .card-footer {
+            padding: 7px;
+            /* border-radius: 7px; */
+            background-color: #666666;
+            text-align: center;
+            color: #000;
+        }
+
+        .card-footer h3 {
+            color: #000;
+        }
+
+
+
         .card .card-body {
             padding: 10px;
+            background-color: aquamarine;
         }
     </style>
 </head>
@@ -64,34 +92,44 @@
         <div class="row">
             <div class="card">
                 <div class="card-heading">
-                    <h2>Most Useful links</h2>
+                    <marquee behavior="" direction=""><h2>Most Useful links</h2></marquee>
                 </div>
                 <div class="card-body">
                     <ul>
                         <li>
-                            <a href="https://www.guvi.in/blog/how-to-setup-react-router-v6/" target="_blank">1. React Router Dom</a>
+                            <a href="https://www.guvi.in/blog/how-to-setup-react-router-v6/" target="_blank"> &#8594; 1. React
+                                Router Dom</a>
                         </li>
                         <li>
-                            <a href="https://voracious.dev/blog/a-practical-cheat-sheet-for-css-flexbox" target="_blank">2. Flexbox
-                                1</a>
+                            <a href="https://github.com/joshnh/Git-Commands" target="_blank">&#8594; 2. Git Command 1</a>
                         </li>
                         <li>
-                            <a href="https://marina-ferreira.github.io/tutorials/css/flexbox/" target="_blank">3. Flexbox 2</a>
-                        </li>
-                        <li>
-                            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">4. Flexbox 3</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/joshnh/Git-Commands" target="_blank">5. Git Command 1</a>
-                        </li>
-                        <li>
-                            <a href="https://intellipaat.com/blog/tutorial/devops-tutorial/git-commands/" target="_blank">6. Git Command
+                            <a href="https://intellipaat.com/blog/tutorial/devops-tutorial/git-commands/"
+                                target="_blank">&#8594; 3. Git Command
                                 2</a>
                         </li>
                         <li>
-                            <a href="https://www.loginradius.com/blog/engineering/git-commands/" target="_blank">7. Git Command 3</a>
+                            <a href="https://www.loginradius.com/blog/engineering/git-commands/" target="_blank">&#8594; 4. Git
+                                Command 3</a>
                         </li>
+                        <li>
+                            <a href="https://voracious.dev/blog/a-practical-cheat-sheet-for-css-flexbox"
+                                target="_blank">&#8594; 5. Flexbox 1</a>
+                        </li>
+
+                        <li>
+                            <a href="https://marina-ferreira.github.io/tutorials/css/flexbox/" target="_blank">&#8594; 6.
+                                Flexbox 2</a>
+                        </li>
+                        <li>
+                            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">&#8594; 7. Flexbox
+                                3</a>
+                        </li>
+
                     </ul>
+                </div>
+                <div class="card-footer">
+                    <h3>Thank You For Visit</h3>
                 </div>
             </div>
         </div>
