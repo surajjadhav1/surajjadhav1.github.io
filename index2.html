@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            color: #000;
+        }
+
+        a:hover {
+            background-color: rgb(250, 250, 250);
+            border: solid 1px #000;
+            border-radius: 10px;
+        }
+
+        .card-body ul {
+            line-height: 35px;
+            list-style-type: none;
+            padding-left: 10px;
+
+        }
+
+        .card-body ul li {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .card {
+            width: 600px;
+        }
+
+        .card .card-heading {
+            padding: 10px;
+            background: linear-gradient(to bottom, #33ccff 3%, #020202 98%);
+            text-align: center;
+        }
+
+        .card .card-footer {
+            padding: 7px;
+            background: linear-gradient(to bottom, #33ccff 0%, #000066 98%);
+            text-align: center;
+            color: #000;
+        }
+
+        .card-footer h4 {
+            color: #fff;
+            font-size: 20px;
+        }
+
+
+
+        .card .card-body {
+            padding: 10px;
+            background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        }
+
+        @media only screen and (max-width: 600px) {
+            .card {
+                width: 380px;
+            }
+
+            .row {
+            margin-top: 10px;
+        }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-heading">
+                    <marquee behavior="" direction="">
+                        <h2>Most Useful links</h2>
+                    </marquee>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="https://www.guvi.in/blog/how-to-setup-react-router-v6/" target="_blank"> &#8594; 1.
+                                React
+                                Router Dom</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/joshnh/Git-Commands" target="_blank">&#8594; 2. Git Command
+                                1</a>
+                        </li>
+                        <li>
+                            <a href="https://intellipaat.com/blog/tutorial/devops-tutorial/git-commands/"
+                                target="_blank">&#8594; 3. Git Command
+                                2</a>
+                        </li>
+                        <li>
+                            <a href="https://www.loginradius.com/blog/engineering/git-commands/" target="_blank">&#8594;
+                                4. Git
+                                Command 3</a>
+                        </li>
+                        <li>
+                            <a href="https://voracious.dev/blog/a-practical-cheat-sheet-for-css-flexbox"
+                                target="_blank">&#8594; 5. Flexbox 1</a>
+                        </li>
+
+                        <li>
+                            <a href="https://marina-ferreira.github.io/tutorials/css/flexbox/" target="_blank">&#8594;
+                                6.
+                                Flexbox 2</a>
+                        </li>
+                        <li>
+                            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">&#8594; 7.
+                                Flexbox
+                                3</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <h4>Thank You For Visit</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
